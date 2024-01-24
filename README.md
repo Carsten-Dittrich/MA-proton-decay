@@ -1,1 +1,1 @@
-# MA-proton-decay
+# Project in the scope of my masterthesis
