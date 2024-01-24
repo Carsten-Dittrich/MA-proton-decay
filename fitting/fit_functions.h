@@ -1,4 +1,4 @@
-////////// DEKLARATION //////////
+////////// DECLARATION //////////
 Double_t uniform_pdf(Double_t *x, Double_t xmin, Double_t xmax);
 Double_t decay_exp(Double_t *x, Double_t *par);
 Double_t gaussianic(Double_t *x, Double_t mu, Double_t sig, Double_t a);
@@ -15,7 +15,7 @@ Double_t double_peak_twoT(Double_t *x, Double_t *par);
 Double_t double_peak_threeT(Double_t *x, Double_t *par);
 
 
-//////////////////// FIT-Funktionen ////////////////////
+//////////////////// FIT-Functions ////////////////////
 // Uniform distribution
 Double_t uniform_pdf(Double_t *x, Double_t xmin, Double_t xmax){ 
     return 1./(xmax - xmin) + 0 * x[0];
